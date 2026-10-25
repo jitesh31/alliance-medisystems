@@ -1,6 +1,6 @@
 # Alliance Medisystems static website
 
-A self-contained static website inspired by the visual language of a modern in-vitro diagnostics company.
+A self-contained static website for Alliance Medisystems, updated with the 2026 product catalogue and the supplied Alliance Medisystems logo.
 
 ## Run locally
 
@@ -15,6 +15,10 @@ Then visit `http://localhost:8000`.
 ## Notes
 
 - Built with plain HTML and CSS; there is no database, backend, framework, or dynamic product data.
-- The enquiry form uses a placeholder `mailto:` action and should be connected to a real form endpoint before launch.
-- Product names, partner names, phone number and email are dummy content for the Alliance Medisystems concept.
+- `catalogue.html` contains the detailed 2026 catalogue sections, model specifications, reagent menus, PCR kits and rapid card tests.
+- `Alliance_Medisystems_Product_Catalogue_2026.pdf` is included as the original downloadable catalogue reference.
+- `alliance-logo-transparent.png` is the transparent Alliance MediSystems logo used in the header, footer, hero and favicon.
+- `kavita-sharma.png` is the founder portrait used on the dedicated contact page.
+- The enquiry form uses the catalogue email address in a `mailto:` action and can be connected to a real form endpoint before launch.
+- Product availability and regulatory status should be verified before purchase or tender submission.
 - The CSS imports Google Fonts when online and falls back to system fonts offline.
