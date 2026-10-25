@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160">
+  <rect width="640" height="160" fill="#101827"/>
+  <text x="28" y="68" fill="#ffffff" font-family="sans-serif" font-size="26">SECUREBANK SVG security probe</text>
+  <text x="28" y="108" fill="#7dd3fc" font-family="monospace" font-size="18" id="probe-status">script-not-executed</text>
+  <script><![CDATA[
+    document.documentElement.setAttribute('data-xss-probe', 'executed');
+    document.getElementById('probe-status').textContent = 'script-executed';
+  ]]></script>
+</svg>
